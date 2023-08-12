@@ -18,7 +18,7 @@ jobs:
         with:
           filename: metrics.plugin.leetcode.svg
           token: NOT_NEEDED
-          plugin_leetcode_user: user4536zT
+          plugin_leetcode_user: batsura-vs
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
       - name: Stats
