@@ -21,3 +21,11 @@ jobs:
           plugin_leetcode_user: user4536zT
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
+      - name: Stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.classic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, repositories
+          plugin_lines: yes
+
