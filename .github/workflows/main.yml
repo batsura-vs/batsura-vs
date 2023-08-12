@@ -1,0 +1,23 @@
+name: Load proxies
+permissions: write-all
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - ".github/**"
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: LeetCode
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.leetcode.svg
+          token: NOT_NEEDED
+          base: "https://leetcode.com/user4536zT/"
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent
