@@ -35,6 +35,7 @@ jobs:
         with:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
           plugin_languages: yes
           plugin_languages_limit: 4
           
@@ -43,6 +44,7 @@ jobs:
         with:
           filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
@@ -54,5 +56,13 @@ jobs:
           base: ""
           plugin_stargazers: yes
           plugin_stargazers_charts_type: graph
+
+      - name: Repositories traffic
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.traffic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: repositories
+          plugin_traffic: yes
 
 
