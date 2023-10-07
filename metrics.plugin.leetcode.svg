@@ -19,8 +19,8 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge all">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="8.188040096785343 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">72</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="8.301762875907363 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">73</text>
                                     <text x="60" y="80" dominant-baseline="central" class="secondary">/2893</text>
                                 </svg>
                                 <span class="title">All</span>
@@ -37,8 +37,8 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge medium">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="1.5121470781352593 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">7</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="1.7281680892974391 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">8</text>
                                     <text x="60" y="80" dominant-baseline="central" class="secondary">/1523</text>
                                 </svg>
                                 <span class="title">Medium</span>
@@ -65,9 +65,9 @@
                     <div class="topics">
                         <div class="label fundamental"><span class="dot">⬤</span> Array <span class="count">x30</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Math <span class="count">x19</span></div>
-                        <div class="label fundamental"><span class="dot">⬤</span> String <span class="count">x18</span></div>
+                        <div class="label fundamental"><span class="dot">⬤</span> String <span class="count">x19</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Hash Table <span class="count">x11</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> Two Pointers <span class="count">x11</span></div>
-                        <div class="label intermediate"><span class="dot">⬤</span> Hash Table <span class="count">x10</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Tree <span class="count">x9</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Binary Tree <span class="count">x9</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Depth-First Search <span class="count">x9</span></div>
@@ -87,7 +87,7 @@
                             <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                         </svg>
                         <div class="infos">
-                            <div class="title">Strictly Palindromic Number</div>
+                            <div class="title">Encode and Decode TinyURL</div>
                             <div class="date">7 Oct 2023</div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                             <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                         </svg>
                         <div class="infos">
-                            <div class="title">Insert Greatest Common Divisors in Linked List</div>
+                            <div class="title">Strictly Palindromic Number</div>
                             <div class="date">7 Oct 2023</div>
                         </div>
                     </div>
